@@ -6,7 +6,7 @@ import sys
 """
 
 Programa que sirve de calculadora e incluye las funciones básica
-(sumar (+), restar (-), multiplicar (\*) y dividir (/)). 
+(sumar (+), restar (-), multiplicar (\*) y dividir (/)).
 Para ejecutar el programa:
 $ python calculadora.py función operando1 operando2
 
@@ -21,20 +21,24 @@ try:
 
 except IndexError:
     print 'Utiliza: $ python calculadora.py función operando1 operando2'
-    print 
+    print
     sys.exit()
+
 
 def suma(x, y):
     """Funcion que suma dos variables"""
     return x + y
 
+
 def resta(x, y):
     """Funcion que resta dos variables"""
     return x - y
 
+
 def multiplicacion(x, y):
     """Funcion que multiplica dos variables"""
     return x * y
+
 
 def division(x, y):
     """Funcion que divide dos variables"""
